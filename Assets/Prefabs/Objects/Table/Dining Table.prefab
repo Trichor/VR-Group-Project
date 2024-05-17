@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1008966556195462802}
   - component: {fileID: 3018650854280882776}
   m_Layer: 0
-  m_Name: Table_Dining_Modern_Light
+  m_Name: Dining Table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
