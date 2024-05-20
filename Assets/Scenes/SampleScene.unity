@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028353, g: 0.22571383, b: 0.30692253, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2381,18 +2381,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1496363396}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &672714736 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2090952104760163157, guid: 7461ead475fe24ae1a8731339d141d18,
-    type: 3}
-  m_PrefabInstance: {fileID: 1496363396}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1496363398}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0755a2ba17a31d643b4a27e3034d8a79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &737835289
 GameObject:
   m_ObjectHideFlags: 0
@@ -4823,71 +4811,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 3.6239
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Deactivated.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_HoverEntered.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 672714736}
-    - target: {fileID: 0}
-      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 672714736}
-    - target: {fileID: 0}
-      propertyPath: m_HoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_HoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1065809098}
-    - target: {fileID: 0}
-      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Play
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Play
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_HoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_HoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ToggleLight
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlayQuickSound, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: PlayQuickSound, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_HoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: LampController, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_HoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 7642070413416651967, guid: 7461ead475fe24ae1a8731339d141d18,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.6239
-      objectReference: {fileID: 0}
     - target: {fileID: 7642070413416651967, guid: 7461ead475fe24ae1a8731339d141d18,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -6510,14 +6433,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: fanRemote
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1074202875}
     - target: {fileID: 7642070413416651967, guid: 7461ead475fe24ae1a8731339d141d18,
         type: 3}
       propertyPath: m_LocalPosition.x
