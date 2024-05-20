@@ -1,36 +1,57 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class RecordPlayerSystem : MonoBehaviour
 {
-    public RecordPlayer player;
-    public Disc disc;
+    public XRSocketInteractor socketInteractor;
+
+    private IXRSelectInteractable currentHeldObject;
+
+    public RecordPlayer rp;
     // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
-        
+        if (socketInteractor == null)
+        {
+            socketInteractor = GetComponent<XRSocketInteractor>();
+        }
+
+        if (socketInteractor != null)
+        {
+            socketInteractor.selectEntered.AddListener(OnSelectEntered);
+            socketInteractor.selectExited.AddListener(OnSelectExited);
+        }
     }
 
-    public void Play()
+    void OnDisable()
     {
-        UnityEngine.Debug.Log("Play");
-        player.disc = disc;
-        Debug.Log(player.disc);
-        Debug.Log(disc);
-        player.recordPlayerActive = true;
+        if (socketInteractor != null)
+        {
+            socketInteractor.selectEntered.RemoveListener(OnSelectEntered);
+            socketInteractor.selectExited.RemoveListener(OnSelectExited);
+        }
     }
 
-    public void Stop()
+    private void OnSelectEntered(SelectEnterEventArgs args)
     {
-        Debug.Log("Stop");
-        player.recordPlayerActive = false;
-        player.mode = 3;
+        currentHeldObject = args.interactableObject;
+        rp.Play(currentHeldObject.transform.gameObject.name);
     }
 
-    // Update is called once per frame
+    private void OnSelectExited(SelectExitEventArgs args)
+    {
+        currentHeldObject = null;
+    }
+
+    public IXRSelectInteractable GetCurrentHeldObject()
+    {
+        return currentHeldObject;
+    }
+
     void Update()
     {
-        
+      
     }
 }

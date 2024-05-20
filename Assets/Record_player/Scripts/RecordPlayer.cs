@@ -3,12 +3,17 @@ using System.Collections;
 using UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Primitives;
 using Unity.Burst.Intrinsics;
 using Unity.VisualScripting.Dependencies.Sqlite;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class RecordPlayer : MonoBehaviour {
 
     public bool recordPlayerActive = false; // Flag if the record player is active
     public RotateObject socket; // To rotate the disc using socket
+    public XRSocketInteractor socketInteractor;
     public Disc disc;
+
+    public Disc disc1;
+    public Disc disc2;
 
     private GameObject _arm;
 
@@ -21,10 +26,17 @@ public class RecordPlayer : MonoBehaviour {
         _arm = gameObject.transform.Find("arm").gameObject;
     }
 
-    public void Play(Disc d)
+    public void Play(string s)
     {
+        if (s == "disc")
+        {
+            disc = disc1;
+        }
+        else if (s == "disc2")
+        {
+            disc = disc2;
+        }
         UnityEngine.Debug.Log("Play");
-        disc = d;
         recordPlayerActive = true;
     }
 
