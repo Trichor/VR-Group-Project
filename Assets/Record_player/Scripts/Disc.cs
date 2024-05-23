@@ -61,17 +61,14 @@ public class Disc : MonoBehaviour
     {
         if (audioSource == null)
         {
-            UnityEngine.Debug.LogWarning("AudioSource is missing.");
             return;
         }
 
         if (audioSource.clip == null)
         {
-            UnityEngine.Debug.LogWarning("AudioSource does not have an AudioClip assigned.");
             return;
         }
 
-        UnityEngine.Debug.Log("Playing Audio: " + audioSource.clip.name);
         audioSource.Play();
 
         if (!audioSource.isPlaying)

@@ -36,7 +36,6 @@ public class RecordPlayer : MonoBehaviour {
         {
             disc = disc2;
         }
-        UnityEngine.Debug.Log("Play");
         recordPlayerActive = true;
     }
 
