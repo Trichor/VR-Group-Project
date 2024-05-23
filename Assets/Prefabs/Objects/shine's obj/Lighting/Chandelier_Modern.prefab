@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 4707157728842381773}
   - component: {fileID: 7288529094642403400}
   - component: {fileID: 4409473550353113774}
-  - component: {fileID: 3621072293283855576}
+  - component: {fileID: 3496701384661435014}
   m_Layer: 0
   m_Name: Chandelier_Modern
   m_TagString: Untagged
@@ -226,7 +226,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.4529043, y: 0.20146012, z: 0.45175743}
   m_Center: {x: 0.002293989, y: 0.10275215, z: -0.007455528}
---- !u!114 &3621072293283855576
+--- !u!114 &3496701384661435014
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -235,10 +235,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6256285110472404883}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 636d52e46ab0145aab76db443c551365, type: 3}
+  m_Script: {fileID: 11500000, guid: d9d083879d47b434f95ee00d84654749, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lampLight: {fileID: 1363427603605073475}
+  lighting: {fileID: 1363427603605073475}
 --- !u!1 &8248249614130193888
 GameObject:
   m_ObjectHideFlags: 0

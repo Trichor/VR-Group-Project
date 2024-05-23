@@ -3,18 +3,23 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class LampController : MonoBehaviour
 {
-    public Light lampLight;
+    public Light lampLight1;
+    public Light lampLight2;
     private bool isOn = false;
 
     void Start()
     {
-        lampLight.enabled = isOn;
+        lampLight1.enabled = isOn;
+        lampLight2.enabled = isOn;
+
     }
 
     public void ToggleLight()
     {
         isOn = !isOn;
-        lampLight.enabled = isOn;
+        lampLight1.enabled = isOn;
+        lampLight2.enabled = isOn;
+
     }
 
  
