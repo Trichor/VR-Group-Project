@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028353, g: 0.22571383, b: 0.30692253, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -531,7 +531,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: bbb29c575e92ab64eb62ee335dc6f563, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.5177405
+      value: -2.397
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: bbb29c575e92ab64eb62ee335dc6f563, type: 3}
       propertyPath: m_LocalPosition.y
@@ -572,11 +572,11 @@ PrefabInstance:
     - target: {fileID: 11400000, guid: bbb29c575e92ab64eb62ee335dc6f563, type: 3}
       propertyPath: disc1
       value: 
-      objectReference: {fileID: 93374190}
+      objectReference: {fileID: 1899551604}
     - target: {fileID: 11400000, guid: bbb29c575e92ab64eb62ee335dc6f563, type: 3}
       propertyPath: disc2
       value: 
-      objectReference: {fileID: 1250083290}
+      objectReference: {fileID: 671419322}
     - target: {fileID: 11400000, guid: bbb29c575e92ab64eb62ee335dc6f563, type: 3}
       propertyPath: socket
       value: 
@@ -615,17 +615,17 @@ PrefabInstance:
     - target: {fileID: 6227234037430111939, guid: f5893d81af382b6429b8829fde604c70,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.3499444
+      value: -1.083
       objectReference: {fileID: 0}
     - target: {fileID: 6227234037430111939, guid: f5893d81af382b6429b8829fde604c70,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: -0.488
       objectReference: {fileID: 0}
     - target: {fileID: 6227234037430111939, guid: f5893d81af382b6429b8829fde604c70,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.3732073
+      value: -3.271
       objectReference: {fileID: 0}
     - target: {fileID: 6227234037430111939, guid: f5893d81af382b6429b8829fde604c70,
         type: 3}
@@ -926,13 +926,13 @@ MonoBehaviour:
       - m_Target: {fileID: 848348892}
         m_TargetAssemblyTypeName: RecordPlayer, Assembly-CSharp
         m_MethodName: Play
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 93374190}
-          m_ObjectArgumentAssemblyTypeName: Disc, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: disc
           m_BoolArgument: 0
         m_CallState: 2
   m_Deactivated:
@@ -4653,11 +4653,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: bbb29c575e92ab64eb62ee335dc6f563, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.359
+      value: -1.071
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: bbb29c575e92ab64eb62ee335dc6f563, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.483
+      value: -0.444
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: bbb29c575e92ab64eb62ee335dc6f563, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8142,17 +8142,17 @@ PrefabInstance:
     - target: {fileID: 6227234037430111939, guid: f5893d81af382b6429b8829fde604c70,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.3499444
+      value: -1.017
       objectReference: {fileID: 0}
     - target: {fileID: 6227234037430111939, guid: f5893d81af382b6429b8829fde604c70,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.527
+      value: -0.49
       objectReference: {fileID: 0}
     - target: {fileID: 6227234037430111939, guid: f5893d81af382b6429b8829fde604c70,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.008
+      value: -2.904
       objectReference: {fileID: 0}
     - target: {fileID: 6227234037430111939, guid: f5893d81af382b6429b8829fde604c70,
         type: 3}
@@ -8474,13 +8474,13 @@ MonoBehaviour:
       - m_Target: {fileID: 848348892}
         m_TargetAssemblyTypeName: RecordPlayer, Assembly-CSharp
         m_MethodName: Play
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 1250083290}
-          m_ObjectArgumentAssemblyTypeName: Disc, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: disc2
           m_BoolArgument: 0
         m_CallState: 2
   m_Deactivated:
