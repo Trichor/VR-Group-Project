@@ -5,7 +5,7 @@ using UnityEngine;
 public class BaseballSound : MonoBehaviour
 {
     public AudioSource audioPlayer;
-    public AudioClip bounceSound;
+    public AudioClip ballBounce;
 
     // Minimum velocity to trigger sound collision
     public float minCollisionVelocity = 0.5f;
@@ -28,7 +28,7 @@ public class BaseballSound : MonoBehaviour
         if (canPlaySound && collision.relativeVelocity.magnitude > minCollisionVelocity)
         {
             // Adjust volume scale
-            audioPlayer.PlayOneShot(bounceSound, 0.7f);
+            audioPlayer.PlayOneShot(ballBounce, 0.7f);
         }
     }
 }
