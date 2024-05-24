@@ -15,7 +15,6 @@ public class OnTilt : MonoBehaviour
     {
         // Calculate the tilt angle between the world up vector and the spout's forward vector
         float tiltAngle = Vector3.Angle(Vector3.up, spout.forward);
-        Debug.Log("Tilt Angle: " + tiltAngle);
 
         if (tiltAngle > tiltThreshold && !isPouring)
         {
