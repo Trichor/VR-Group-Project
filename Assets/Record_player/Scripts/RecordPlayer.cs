@@ -14,6 +14,8 @@ public class RecordPlayer : MonoBehaviour {
 
     public Disc disc1;
     public Disc disc2;
+    public Disc disc3;
+    public Disc disc4;
 
     private GameObject _arm;
 
@@ -35,6 +37,14 @@ public class RecordPlayer : MonoBehaviour {
         else if (s == "disc2")
         {
             disc = disc2;
+        }
+        else if (s == "disc3")
+        {
+            disc = disc3;
+        }
+        else if (s == "disc4")
+        {
+            disc = disc4;
         }
         recordPlayerActive = true;
     }
