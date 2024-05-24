@@ -2145,7 +2145,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 2021161563}
         m_TargetAssemblyTypeName: FanController, Assembly-CSharp
-        m_MethodName: TurnOn
+        m_MethodName: ToggleFan
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2169,7 +2169,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 862806538}
         m_TargetAssemblyTypeName: FanController, Assembly-CSharp
-        m_MethodName: TurnOn
+        m_MethodName: ToggleFan
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

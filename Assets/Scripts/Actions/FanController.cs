@@ -28,18 +28,24 @@ public class FanController : MonoBehaviour
         transform.Rotate(Vector3.up, currentSpeed * Time.deltaTime);
     }
 
-    public void TurnOn()
+    public void ToggleFan()
     {
         isOn = !isOn;
 
-        Debug.Log("Fan on");
+     
 
     }
-}
-//     public void TurnOff()
-//     {
-//         isOn = false;
-//         Debug.Log("Fan off");
+    public void TurnOn()
+    {
+        isOn = true;
 
-//     }
-// }
+
+    }
+
+    public void TurnOff()
+    {
+        isOn = false;
+    }
+
+
+}
