@@ -4176,7 +4176,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8490,6 +8490,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 13400000, guid: 83e1d7e5faaa548a0a85d369d5bdde03,
         type: 2}
+    - target: {fileID: 8752848364099813922, guid: 3ffad4647e04f47049c330c3d3d9c033,
+        type: 3}
+      propertyPath: Priority
+      value: 103
+      objectReference: {fileID: 0}
+    - target: {fileID: 8752848364099813922, guid: 3ffad4647e04f47049c330c3d3d9c033,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
